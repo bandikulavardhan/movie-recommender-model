@@ -32,6 +32,10 @@ $$Similarity = \frac{A \cdot B}{||A|| ||B||}$$
 
 ## ⚙️ Setup & Usage
 1. Clone the repository.
+    `git clone https://github.com/bandikulavardhan/movieRecommendor.git`
+    `cd movieRecommendor`
 2. Ensure you have the dataset `tmdb_5000_movies.csv` in the `data/` folder.
-3. Install requirements: `pip install -r requirements.txt`.
-4. Run the system: `python main.py`.
+3. Create Virtual environment `python -m venv venv`
+4. Activate Virtual environment `venv\Scripts\activate`
+5. Install requirements: `pip install -r requirements.txt`.
+6. Run the system: `python main.py`.
